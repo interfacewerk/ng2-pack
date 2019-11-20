@@ -25,6 +25,10 @@ export class SortableItemDirective {
   // draggable
   @HostListener('dragstart', ['$event'])
   onDragStart(dragEvent: DragEvent) {
+    if (!dragEvent.dataTransfer) {
+      console.warn('no data transfer');
+      return;
+    }
     dragEvent.dataTransfer.effectAllowed = 'move';
     dragSource = this;
     originalNextSibling = this.elementRef.nativeElement.nextSibling;
