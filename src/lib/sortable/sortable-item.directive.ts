@@ -43,6 +43,10 @@ export class SortableItemDirective {
   @HostListener('dragstart', ['$event'])
   onDragStart(dragEvent: DragEvent) {
     if (this.disableSorting) { return; }
+    if (!dragEvent.dataTransfer) {
+      console.warn('no data transfer');
+      return;
+    }
     dragEvent.dataTransfer.effectAllowed = 'move';
     dragEvent.dataTransfer.setData('text', '');
     dragSource = this;
