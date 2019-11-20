@@ -25,7 +25,7 @@ export class SortableItemDirective {
   @Input() disableSorting = false;
   @Output() sortableDrop = new EventEmitter<SortableEvent>();
   @Output() sortablePreview = new EventEmitter<SortableEvent>();
-  @Output() sortableDragEnd = new EventEmitter<void>();
+  @Output() sortableDragEnd = new EventEmitter();
 
   private lastEvent: string = '';
 
