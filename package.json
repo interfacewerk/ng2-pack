@@ -1,17 +1,24 @@
 {
-  "name": "ng2-pack",
-  "version": "0.0.0",
+  "name": "@interfacewerk/ng2-pack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interfacewerk/ng2-pack.git"
+  },
+  "author": "interfacewerk GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/interfacewerk/ng2-pack/issues"
+  },
+  "homepage": "https://github.com/interfacewerk/ng2-pack#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build ng2-pack",
+    "build": "ng build ng2-pack && node fill-package-json.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "repository": {
-    "url": "https://github.com/interfacewerk/ng2-pack"
-  },
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.14",
