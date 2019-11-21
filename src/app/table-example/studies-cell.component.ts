@@ -1,6 +1,6 @@
-import {ColumnState} from './../../lib/table';
 
 import {Component, Input} from '@angular/core';
+import { ColumnState } from '../../../projects/ng2-pack/src/public-api';
 
 @Component({
   selector: 'iw-studies-cell',

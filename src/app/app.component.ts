@@ -1,8 +1,8 @@
-import {ColumnConfig} from './../lib/table';
 import {TableExampleService} from './table-example/table-example.service';
 
 import { Component } from '@angular/core';
 import {DatePipe} from '@angular/common';
+import { ColumnConfig } from '../../projects/ng2-pack/src/public-api';
 
 @Component({
   selector: 'iw-root',
