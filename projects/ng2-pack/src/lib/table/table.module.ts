@@ -34,7 +34,7 @@ import { FormsModule } from '@angular/forms';
     Select2Component,
     TdComponent,
     ThComponent,
-    FormatColumnPipe,
+    FormatColumnPipe
   ],
   exports: [
     TableComponent,
@@ -44,7 +44,7 @@ import { FormsModule } from '@angular/forms';
     Select2Component,
     TdComponent,
     ThComponent,
-    FormatColumnPipe,
+    FormatColumnPipe
   ],
   providers: [
     TableSortingService,
