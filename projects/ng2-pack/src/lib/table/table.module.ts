@@ -19,40 +19,6 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-console.log({
-  imports: [
-    PipesModule,
-    CommonModule,
-    FormsModule,
-    DropdownModule
-  ],
-  declarations: [
-    TableComponent,
-    TheadComponent,
-    TbodyComponent,
-    AddColumnComponent,
-    Select2Component,
-    TdComponent,
-    ThComponent,
-    FormatColumnPipe
-  ],
-  exports: [
-    TableComponent,
-    TheadComponent,
-    TbodyComponent,
-    AddColumnComponent,
-    Select2Component,
-    TdComponent,
-    ThComponent,
-    FormatColumnPipe
-  ],
-  providers: [
-    TableSortingService,
-    TableInitService,
-    I18nService,
-    DefaultValuePipe
-  ]
-});
 
 @NgModule({
   imports: [
