@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { en, de } from '../locales';
+import { en } from '../locales/en';
+import { de } from '../locales/de';
 
 export interface I18nLocales {
   [language: string]: I18nLocale;
