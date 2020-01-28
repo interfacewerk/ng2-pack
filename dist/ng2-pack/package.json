@@ -1,0 +1,31 @@
+{
+  "name": "ng2-pack",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/ng2-pack.umd.js",
+  "module": "fesm5/ng2-pack.js",
+  "es2015": "fesm2015/ng2-pack.js",
+  "esm5": "esm5/ng2-pack.js",
+  "esm2015": "esm2015/ng2-pack.js",
+  "fesm5": "fesm5/ng2-pack.js",
+  "fesm2015": "fesm2015/ng2-pack.js",
+  "typings": "ng2-pack.d.ts",
+  "metadata": "ng2-pack.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interfacewerk/ng2-pack.git"
+  },
+  "author": "interfacewerk GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/interfacewerk/ng2-pack/issues"
+  },
+  "homepage": "https://github.com/interfacewerk/ng2-pack#readme"
+}
